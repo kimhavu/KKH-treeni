@@ -435,7 +435,7 @@ button {
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <script>
-/* @ds-bundle: {"format":3,"namespace":"VireDesignSystem_068680","components":[{"name":"Avatar","sourcePath":"components/data-display/Avatar.jsx"},{"name":"Badge","sourcePath":"components/data-display/Badge.jsx"},{"name":"Card","sourcePath":"components/data-display/Card.jsx"},{"name":"ProgressRing","sourcePath":"components/data-display/ProgressRing.jsx"},{"name":"StatTile","sourcePath":"components/data-display/StatTile.jsx"},{"name":"Button","sourcePath":"components/forms/Button.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"IconButton","sourcePath":"components/forms/IconButton.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"SegmentedControl","sourcePath":"components/forms/SegmentedControl.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"}],"sourceHashes":{"app/extras.jsx":"062ca16e8f1a","app/history.jsx":"5be3f1e24d89","app/i18n.jsx":"8a728eee63b8","app/liike.jsx":"b7ee749419ae","app/onboarding.jsx":"6303ee3a7e67","app/profiili.jsx":"39fec291e8ff","app/ravinto.jsx":"9129241007dd","app/settings.jsx":"9054a0f32a44","app/shell.jsx":"25e6a0de456c","app/store.jsx":"e3cd1233f149","app/today.jsx":"7fd2af5cd01f","components/data-display/Avatar.jsx":"45c638631b6a","components/data-display/Badge.jsx":"ba66048983d4","components/data-display/Card.jsx":"27fbcbd15322","components/data-display/ProgressRing.jsx":"c76ba3c7153b","components/data-display/StatTile.jsx":"8cb73e9b51f6","components/forms/Button.jsx":"7e0fdff0c34b","components/forms/Checkbox.jsx":"a4f5ba11986e","components/forms/IconButton.jsx":"b4baaca12a9f","components/forms/Input.jsx":"8a5d3e58dae1","components/forms/SegmentedControl.jsx":"278f65f2e07f","components/forms/Switch.jsx":"b7b4c19eed04","ui_kits/mobile/LiikeModule.jsx":"02d798be60e0","ui_kits/mobile/NutritionScreen.jsx":"6ba80dcce3dc","ui_kits/mobile/ProfileScreen.jsx":"171df5c70fbe","ui_kits/mobile/RavintoModule.jsx":"0c22d89c2093","ui_kits/mobile/TodayScreen.jsx":"9824e4a1f2e6","ui_kits/mobile/kit-lib.jsx":"9017c1708a8d","ui_kits/web/OverviewView.jsx":"ee2dd27bb407","ui_kits/web/kit-lib.jsx":"84f49f224d52","ui_kits/web/views.jsx":"56363e24a330"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":4,"namespace":"VireDesignSystem_068680","components":[{"name":"Avatar","sourcePath":"components/data-display/Avatar.jsx"},{"name":"Badge","sourcePath":"components/data-display/Badge.jsx"},{"name":"Card","sourcePath":"components/data-display/Card.jsx"},{"name":"ProgressRing","sourcePath":"components/data-display/ProgressRing.jsx"},{"name":"StatTile","sourcePath":"components/data-display/StatTile.jsx"},{"name":"Button","sourcePath":"components/forms/Button.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"IconButton","sourcePath":"components/forms/IconButton.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"SegmentedControl","sourcePath":"components/forms/SegmentedControl.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"}],"sourceHashes":{"app/extras.jsx":"d3614e9592ec","app/history.jsx":"5be3f1e24d89","app/i18n.jsx":"8a728eee63b8","app/liike.jsx":"80c943888e20","app/onboarding.jsx":"6303ee3a7e67","app/profiili.jsx":"39fec291e8ff","app/ravinto.jsx":"9129241007dd","app/settings.jsx":"9054a0f32a44","app/shell.jsx":"3d11057ee819","app/store.jsx":"f9b13f4f82cf","app/today.jsx":"7fd2af5cd01f","components/data-display/Avatar.jsx":"45c638631b6a","components/data-display/Badge.jsx":"ba66048983d4","components/data-display/Card.jsx":"27fbcbd15322","components/data-display/ProgressRing.jsx":"c76ba3c7153b","components/data-display/StatTile.jsx":"8cb73e9b51f6","components/forms/Button.jsx":"7e0fdff0c34b","components/forms/Checkbox.jsx":"a4f5ba11986e","components/forms/IconButton.jsx":"b4baaca12a9f","components/forms/Input.jsx":"8a5d3e58dae1","components/forms/SegmentedControl.jsx":"278f65f2e07f","components/forms/Switch.jsx":"b7b4c19eed04","ui_kits/mobile/LiikeModule.jsx":"02d798be60e0","ui_kits/mobile/NutritionScreen.jsx":"6ba80dcce3dc","ui_kits/mobile/ProfileScreen.jsx":"171df5c70fbe","ui_kits/mobile/RavintoModule.jsx":"0c22d89c2093","ui_kits/mobile/TodayScreen.jsx":"9824e4a1f2e6","ui_kits/mobile/kit-lib.jsx":"9017c1708a8d","ui_kits/web/OverviewView.jsx":"ee2dd27bb407","ui_kits/web/kit-lib.jsx":"84f49f224d52","ui_kits/web/views.jsx":"56363e24a330"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -794,7 +794,7 @@ function MessagesView({
         background: me ? "var(--brand-500)" : "var(--surface-card)",
         color: me ? "#fff" : "var(--text-primary)",
         border: me ? "none" : "1px solid var(--border-subtle)",
-        boxShadow: me ? "0 4px 12px rgba(142,114,118,0.28)" : "var(--shadow-xs)"
+        boxShadow: me ? "0 4px 12px rgba(30,143,203,0.28)" : "var(--shadow-xs)"
       }
     }, m.text), m.t ? /*#__PURE__*/React.createElement("span", {
       style: {
@@ -921,7 +921,7 @@ function buildSummaryHTML(store, lang) {
     const mealList = (d.meals || []).map(m => m.text).filter(Boolean).join(", ");
     return `<tr><td>${k}</td><td>${(d.meals || []).length}</td><td style="color:#5E657E">${mealList || "—"}</td><td>${kc || "—"}</td><td>${(d.workouts || []).length}</td><td>${mn || "—"}</td><td>${d.steps || "—"}</td></tr>`;
   }).join("");
-  const teal = "#75595D";
+  const teal = "#1873A6";
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>Vire — ${t("export_title")}</title>
   <style>
     *{box-sizing:border-box} body{font-family:-apple-system,'Plus Jakarta Sans',Segoe UI,Roboto,sans-serif;color:#272B3D;margin:0;padding:40px;background:#fff}
@@ -936,8 +936,8 @@ function buildSummaryHTML(store, lang) {
     tfoot td{font-weight:800;border-top:2px solid #C8CCD9}
     @media print{body{padding:18px}}
     .vtoolbar{position:fixed;top:0;left:0;right:0;display:flex;gap:10px;justify-content:flex-end;align-items:center;padding:12px 16px;background:rgba(248,249,252,0.92);backdrop-filter:blur(10px);border-bottom:1px solid #E7E0E1;z-index:10}
-    .vtoolbar button{font-family:inherit;font-size:14px;font-weight:700;padding:9px 16px;border-radius:12px;border:1px solid #D0C8CA;background:#fff;color:#3B3439;cursor:pointer}
-    .vtoolbar button.prim{background:#BCA5A8;border-color:#BCA5A8;color:#3D2F31}
+    .vtoolbar button{font-family:inherit;font-size:14px;font-weight:700;padding:9px 16px;border-radius:12px;border:1px solid #C7D0D7;background:#fff;color:#1A2A36;cursor:pointer}
+    .vtoolbar button.prim{background:#6EC6EA;border-color:#6EC6EA;color:#08151F}
     body{padding-top:72px}
     @media print{.no-print{display:none!important}body{padding-top:18px}}
   </style></head><body>
@@ -1085,7 +1085,7 @@ function ExportView({
       color: "var(--text-muted)",
       textAlign: "center"
     }
-  }, t("export_empty")) : null, row("file-spreadsheet", "#75595D", t("export_csv"), t("export_csv_s"), exportCSV, "csv"), row("file-text", "#C47E52", t("export_pdf"), t("export_pdf_s"), exportPDF, "pdf"), /*#__PURE__*/React.createElement(Card, {
+  }, t("export_empty")) : null, row("file-spreadsheet", "#1873A6", t("export_csv"), t("export_csv_s"), exportCSV, "csv"), row("file-text", "#C47E52", t("export_pdf"), t("export_pdf_s"), exportPDF, "pdf"), /*#__PURE__*/React.createElement(Card, {
     soft: true,
     padding: "md",
     style: {
@@ -3295,80 +3295,11 @@ function Harjoitteet({
   }, /*#__PURE__*/React.createElement(L, {
     name: "trash-2",
     size: 18
-  })))), /*#__PURE__*/React.createElement(SectionLabel, {
-    style: {
-      marginTop: 8
-    }
-  }, t("planned_workouts")), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      flexDirection: "column",
-      gap: 14
-    }
-  }, SAMPLE_EXERCISES.map((ex, i) => /*#__PURE__*/React.createElement(Card, {
-    key: i,
-    padding: "sm",
-    style: {
-      padding: 12
-    }
-  }, /*#__PURE__*/React.createElement(VideoField, {
-    tone: ex.tone,
-    duration: ex.dur,
-    caption: t("watch_technique")
-  }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: 12,
-      padding: "12px 4px 2px"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      width: 26,
-      height: 26,
-      borderRadius: 8,
-      background: "var(--brand-50)",
-      color: "var(--brand-600)",
-      display: "grid",
-      placeItems: "center",
-      fontSize: 13,
-      fontWeight: 800,
-      flexShrink: 0
-    }
-  }, i + 1), /*#__PURE__*/React.createElement("div", {
-    style: {
-      flex: 1,
-      minWidth: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontWeight: 700,
-      fontSize: 16
-    }
-  }, ex.name[lang] || ex.name.fi), /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: 13,
-      color: "var(--text-muted)"
-    }
-  }, ex.sets))))), /*#__PURE__*/React.createElement(Card, {
-    soft: true,
-    padding: "md",
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: 12
-    }
-  }, /*#__PURE__*/React.createElement(L, {
-    name: "info",
-    size: 20,
-    color: "var(--brand-500)"
-  }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: 13,
-      color: "var(--text-secondary)",
-      lineHeight: 1.45
-    }
-  }, t("sample_note"))))));
+  })))), /*#__PURE__*/React.createElement(PlanDay, {
+    plan: planForDate(store, refDate),
+    t: t,
+    lang: lang
+  })));
 }
 function ViikkoOhjelma({
   store,
@@ -3392,7 +3323,7 @@ function ViikkoOhjelma({
   const program = store.state.programs && Array.isArray(store.state.programs.workouts) ? store.state.programs.workouts : null;
   const planFor = d => {
     const dow = (d.getDay() + 6) % 7;
-    const src = program && program.length && program[0] && program[0].dow !== undefined ? program : window.DEFAULT_PLAN;
+    const src = program && program.length && program[0] && program[0].kind ? program : window.DEFAULT_PLAN;
     const e = src.find(x => x.dow === dow);
     if (!e) return null;
     const nm = typeof e.name === "object" ? e.name[lang] || e.name.fi : e.name;
@@ -3608,7 +3539,9 @@ function ViikkoOhjelma({
       color: "var(--text-secondary)",
       lineHeight: 1.45
     }
-  }, t("week_note")))));
+  }, t("week_note"))), /*#__PURE__*/React.createElement(SeasonFocus, {
+    lang: lang
+  })));
 }
 const chip = (bg, fg, s) => ({
   width: s,
@@ -3637,6 +3570,322 @@ const navBtn = {
   placeItems: "center",
   cursor: "pointer"
 };
+const KIND_LABEL = {
+  laji: {
+    fi: "Lajiharjoitus",
+    en: "Jumping",
+    sv: "Gren"
+  },
+  sali: {
+    fi: "Sali",
+    en: "Gym",
+    sv: "Gym"
+  },
+  omatoimi: {
+    fi: "Omatoiminen",
+    en: "On your own",
+    sv: "Egen"
+  },
+  lepo: {
+    fi: "Vapaa",
+    en: "Free",
+    sv: "Ledig"
+  }
+};
+const PD_TXT = {
+  today: {
+    fi: "Päivän treeni",
+    en: "Today's session",
+    sv: "Dagens pass"
+  },
+  remember: {
+    fi: "Muista hypyissä",
+    en: "Remember when jumping",
+    sv: "Kom ihåg i hoppen"
+  },
+  free_b: {
+    fi: "Tänään ei ohjattua treeniä. Pelaa, leiki ja liiku kavereiden kanssa — se on myös harjoittelua!",
+    en: "No planned session today. Play and move with friends — that counts too!",
+    sv: "Inget planerat pass idag. Lek och rör dig med kompisar — det räknas också!"
+  },
+  focus_t: {
+    fi: "Kauden painopisteet",
+    en: "Season focus",
+    sv: "Säsongens fokus"
+  },
+  diploma: {
+    fi: "Diplomi: taso 2 — Tuiskun liitäjämerkki",
+    en: "Diploma: level 2",
+    sv: "Diplom: nivå 2"
+  }
+};
+const pd = (k, lang) => PD_TXT[k][lang] || PD_TXT[k].fi;
+function planForDate(store, d) {
+  const dow = (d.getDay() + 6) % 7;
+  const prog = store.state.programs && Array.isArray(store.state.programs.workouts) ? store.state.programs.workouts : null;
+  const src = prog && prog.length && prog[0] && prog[0].kind ? prog : window.DEFAULT_PLAN;
+  return src.find(x => x.dow === dow) || null;
+}
+function PlanDay({
+  plan,
+  t,
+  lang
+}) {
+  const {
+    Card,
+    Badge
+  } = window.VS;
+  const {
+    L,
+    SectionLabel
+  } = window;
+  if (!plan) return null;
+  const nm = plan.name[lang] || plan.name.fi;
+  if (plan.kind === "lepo") {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(SectionLabel, {
+      style: {
+        marginTop: 8
+      }
+    }, pd("today", lang)), /*#__PURE__*/React.createElement(Card, {
+      padding: "lg",
+      style: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        textAlign: "center",
+        gap: 12
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        width: 56,
+        height: 56,
+        borderRadius: 18,
+        background: "var(--lilac-100)",
+        color: "var(--lilac-500)",
+        display: "grid",
+        placeItems: "center"
+      }
+    }, /*#__PURE__*/React.createElement(L, {
+      name: "sun",
+      size: 26
+    })), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 18,
+        fontWeight: 800
+      }
+    }, nm), /*#__PURE__*/React.createElement("div", {
+      style: {
+        fontSize: 14,
+        color: "var(--text-secondary)",
+        lineHeight: 1.5,
+        maxWidth: 290
+      }
+    }, pd("free_b", lang))));
+  }
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 12
+    }
+  }, /*#__PURE__*/React.createElement(SectionLabel, {
+    style: {
+      marginTop: 8,
+      marginBottom: 0
+    }
+  }, pd("today", lang)), /*#__PURE__*/React.createElement(Card, {
+    padding: "md",
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 14
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 48,
+      height: 48,
+      borderRadius: 15,
+      background: "var(--brand-50)",
+      color: "var(--brand-600)",
+      display: "grid",
+      placeItems: "center",
+      flexShrink: 0
+    }
+  }, /*#__PURE__*/React.createElement(L, {
+    name: plan.icon || "activity",
+    size: 24
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1,
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 18,
+      fontWeight: 800
+    }
+  }, nm), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "var(--text-muted)"
+    }
+  }, plan.focus[lang] || plan.focus.fi)), /*#__PURE__*/React.createElement(Badge, {
+    tone: "brand"
+  }, plan.mins, " ", t("u_min"))), plan.parts.map((p, i) => /*#__PURE__*/React.createElement(Card, {
+    key: i,
+    padding: "md",
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 26,
+      height: 26,
+      borderRadius: 8,
+      background: "var(--brand-500)",
+      color: "#fff",
+      display: "grid",
+      placeItems: "center",
+      fontSize: 13,
+      fontWeight: 800,
+      flexShrink: 0
+    }
+  }, i + 1), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1,
+      fontWeight: 700,
+      fontSize: 15.5
+    }
+  }, p.title), p.mins ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 13,
+      fontWeight: 700,
+      color: "var(--text-muted)"
+    }
+  }, p.mins, " ", t("u_min")) : null), p.video ? /*#__PURE__*/React.createElement(VideoField, {
+    tone: "duotone",
+    duration: "\u2014",
+    caption: t("watch_technique")
+  }) : null, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      margin: 0,
+      paddingLeft: 20,
+      display: "flex",
+      flexDirection: "column",
+      gap: 4
+    }
+  }, p.items.map((it, j) => /*#__PURE__*/React.createElement("li", {
+    key: j,
+    style: {
+      fontSize: 14,
+      color: "var(--text-secondary)",
+      lineHeight: 1.45
+    }
+  }, it))))), plan.tips ? /*#__PURE__*/React.createElement(Card, {
+    soft: true,
+    padding: "md",
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 8,
+      fontWeight: 700,
+      fontSize: 14.5
+    }
+  }, /*#__PURE__*/React.createElement(L, {
+    name: "star",
+    size: 18,
+    color: "var(--apricot-500)"
+  }), pd("remember", lang)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 6
+    }
+  }, plan.tips.map((x, j) => /*#__PURE__*/React.createElement(Badge, {
+    key: j,
+    tone: "brand"
+  }, x)))) : null, plan.note ? /*#__PURE__*/React.createElement(Card, {
+    flat: true,
+    padding: "md",
+    style: {
+      display: "flex",
+      gap: 10,
+      alignItems: "flex-start"
+    }
+  }, /*#__PURE__*/React.createElement(L, {
+    name: "snowflake",
+    size: 18,
+    color: "var(--brand-500)"
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "var(--text-secondary)",
+      lineHeight: 1.45
+    }
+  }, plan.note)) : null);
+}
+function SeasonFocus({
+  lang
+}) {
+  const {
+    Card,
+    Badge
+  } = window.VS;
+  const {
+    L,
+    SectionLabel
+  } = window;
+  const items = ["Liikunnallisuus", "Yleistaidot", "Lajitaidot", "Pikkusuksitaidot", "Nopeus", "Notkeus"];
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(SectionLabel, null, pd("focus_t", lang)), /*#__PURE__*/React.createElement(Card, {
+    padding: "md",
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 6
+    }
+  }, items.map(x => /*#__PURE__*/React.createElement(Badge, {
+    key: x,
+    tone: "brand"
+  }, x))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 13,
+      color: "var(--text-secondary)",
+      lineHeight: 1.45
+    }
+  }, "Noin 4 ohjattua treeni\xE4 + v\xE4hint\xE4\xE4n 2 omatoimista viikossa. Muut harrastukset ja leikkiv\xE4 liikunta ovat plussaa!"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 8,
+      fontSize: 13.5,
+      fontWeight: 700
+    }
+  }, /*#__PURE__*/React.createElement(L, {
+    name: "award",
+    size: 18,
+    color: "var(--apricot-500)"
+  }), pd("diploma", lang))));
+}
 Object.assign(window, {
   LiikeModule,
   VideoField
@@ -5828,7 +6077,7 @@ function AppFrame({
       maxWidth: 520,
       margin: "0 auto",
       minHeight: "100dvh",
-      background: immersive ? "var(--home-base, #4A383B)" : "var(--surface-page)",
+      background: immersive ? "var(--home-base, #08151F)" : "var(--surface-page)",
       position: "relative",
       display: "flex",
       flexDirection: "column",
@@ -5877,7 +6126,7 @@ function BottomNav({
       cursor: "pointer",
       borderRadius: 20,
       background: tab.active ? "var(--btn-primary-bg)" : "transparent",
-      boxShadow: tab.active ? "0 6px 16px rgba(142,114,118,0.42)" : "none",
+      boxShadow: tab.active ? "0 6px 16px rgba(30,143,203,0.42)" : "none",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -5968,7 +6217,7 @@ function HeroBg() {
       left: 0,
       right: 0,
       height: 540,
-      background: "var(--home-base, #4A383B)",
+      background: "var(--home-base, #08151F)",
       willChange: "transform, opacity",
       backfaceVisibility: "hidden",
       transform: "translate3d(0,0,0)"
@@ -5996,7 +6245,7 @@ function HeroBg() {
       left: 0,
       right: 0,
       height: 760,
-      background: "linear-gradient(to bottom, rgba(24,14,16,0.46) 0px, rgba(24,14,16,0.06) 140px, rgba(74,56,59,0) 270px, var(--home-base, #4A383B) 460px, var(--home-base, #4A383B) 760px)"
+      background: "linear-gradient(to bottom, rgba(5,14,22,0.46) 0px, rgba(5,14,22,0.06) 140px, rgba(8,21,31,0) 270px, var(--home-base, #08151F) 460px, var(--home-base, #08151F) 760px)"
     }
   })));
 }
@@ -6449,7 +6698,7 @@ try { (() => {
 /* Vire-app — tilamalli + localStorage + päivä/viikko-apurit.
    Kaikki alkaa nollasta. v0.1.1: asetukset, kieli, teema, fiilis, pilvisynkkaus. */
 
-const STORE_KEY = "vire.app.v1";
+const STORE_KEY = "vire.kkh.v1";
 const APP_VERSION = "0.2.1";
 
 /* ---------- päivä & viikko ---------- */
@@ -6779,102 +7028,191 @@ function useVireStore() {
    dow: 0 = maanantai … 6 = sunnuntai. Yksi lepopäivä. */
 const DEFAULT_PLAN = [{
   dow: 0,
-  icon: "dumbbell",
-  mins: 40,
-  name: {
-    fi: "Voima — alavartalo",
-    en: "Strength — lower body",
-    sv: "Styrka — underkropp"
-  },
-  focus: {
-    fi: "Kyykky, askelkyykky, lankku",
-    en: "Squat, lunge, plank",
-    sv: "Knäböj, utfall, planka"
-  }
-}, {
-  dow: 1,
-  icon: "footprints",
+  kind: "omatoimi",
+  icon: "house",
   mins: 30,
   name: {
-    fi: "Palauttava kävely",
-    en: "Recovery walk",
-    sv: "Återhämtningspromenad"
+    fi: "Kotiläksytreeni",
+    en: "Home training",
+    sv: "Hemträning"
   },
   focus: {
-    fi: "Reipas kävely ulkona",
-    en: "Brisk walk outdoors",
-    sv: "Rask promenad ute"
-  }
+    fi: "Diplomitehtävät, keskivartalo, liikkuvuus",
+    en: "Diploma tasks, core, mobility",
+    sv: "Diplomuppgifter, bål, rörlighet"
+  },
+  parts: [{
+    title: "Diplomitehtävät",
+    mins: 15,
+    items: ["Suoritusdiplomin taso 2 -tehtävähaasteet valmentajan ohjeiden mukaan"]
+  }, {
+    title: "Keskivartalo",
+    mins: 10,
+    items: ["Keskivartalon harjoitteita", "Lajiliikkuvuusosio"]
+  }, {
+    title: "Venyttely",
+    mins: 5,
+    items: ["Venyttelyä koko keholle"]
+  }]
+}, {
+  dow: 1,
+  kind: "laji",
+  icon: "mountain-snow",
+  mins: 120,
+  name: {
+    fi: "Lajiharjoitus",
+    en: "Ski jumping practice",
+    sv: "Grenträning"
+  },
+  focus: {
+    fi: "Verryttely 1 + hyppääminen",
+    en: "Warm-up 1 + jumping",
+    sv: "Uppvärmning 1 + hoppning"
+  },
+  parts: [{
+    title: "Verryttely / oheisharjoitus 1",
+    mins: 30,
+    items: ["Peli tai vauhdikas leikki", "Venyttelyhetki koko keholle", "Nopeus ja räjähtävyys"]
+  }, {
+    title: "Hyppääminen",
+    mins: 90,
+    video: true,
+    items: ["Noin 10–25 hyppyä tai muuta lajinomaista tekemistä, esim. pikkusuksilla", "Mäkikoko pääasiassa alle HS 70"]
+  }, {
+    title: "Loppuyhteenveto",
+    mins: 0,
+    items: ["Mikä onnistui tänään? Mitä harjoitellaan seuraavaksi?"]
+  }],
+  tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria ja lentäminen \"irti alustasta\"", "Telemark-alastulo"]
 }, {
   dow: 2,
+  kind: "sali",
   icon: "dumbbell",
-  mins: 40,
+  mins: 90,
   name: {
-    fi: "Voima — ylävartalo",
-    en: "Strength — upper body",
-    sv: "Styrka — överkropp"
+    fi: "Salitreeni",
+    en: "Gym session",
+    sv: "Gympass"
   },
   focus: {
-    fi: "Punnerrus, soutu, olkapäät",
-    en: "Push-up, row, shoulders",
-    sv: "Armhävning, rodd, axlar"
-  }
+    fi: "Yleistaidot + ominaisuudet",
+    en: "General skills + qualities",
+    sv: "Allmänna färdigheter + egenskaper"
+  },
+  parts: [{
+    title: "Verryttely",
+    mins: 15,
+    items: ["Verryttelypeli tai leikki", "Venyttelyhetki"]
+  }, {
+    title: "Kehonhallinta",
+    mins: 30,
+    items: ["Voimistelun kaltaista kehonhallintaa", "Tasapainotaitoja ja muita yleistaitoja"]
+  }, {
+    title: "Keskivartalo & räjähtävyys",
+    mins: 30,
+    items: ["Keskivartalon harjoitteita", "Lajinomaista nopeutta ja räjähtävyyttä"]
+  }, {
+    title: "Lajiliikkuvuus",
+    mins: 15,
+    items: ["Lajiliikkuvuusosio"]
+  }],
+  note: "Talvikaudella tilalla pikkusuksitreeni: suksitaitoja, pelejä, leikkejä ja ponnistuksia suksilla + hiihtämistä."
 }, {
   dow: 3,
-  icon: "heart",
-  mins: 25,
+  kind: "omatoimi",
+  icon: "bike",
+  mins: 45,
   name: {
-    fi: "Liikkuvuus & venyttely",
-    en: "Mobility & stretch",
-    sv: "Rörlighet & stretch"
+    fi: "Omatoiminen hikitreeni",
+    en: "Own cardio",
+    sv: "Egen kondition"
   },
   focus: {
-    fi: "Lonkat, selkä, hartiat",
-    en: "Hips, back, shoulders",
-    sv: "Höfter, rygg, axlar"
-  }
+    fi: "Hikipeli tai aerobinen lenkki",
+    en: "Sweaty game or aerobic run",
+    sv: "Svettig lek eller lugn runda"
+  },
+  parts: [{
+    title: "Hikipeli tai lenkki",
+    mins: 30,
+    items: ["Juosten, rullasuksilla, pyörällä, rullaluistimilla tai hiihtäen", "Kaverin kanssa on hauskempaa!"]
+  }, {
+    title: "Keskivartalo & liikkuvuus",
+    mins: 15,
+    items: ["Keskivartalon harjoitteita", "Lajiliikkuvuusosio"]
+  }]
 }, {
   dow: 4,
-  icon: "activity",
-  mins: 35,
+  kind: "laji",
+  icon: "mountain-snow",
+  mins: 120,
   name: {
-    fi: "Intervallit",
-    en: "Intervals",
-    sv: "Intervaller"
+    fi: "Lajiharjoitus",
+    en: "Ski jumping practice",
+    sv: "Grenträning"
   },
   focus: {
-    fi: "6 × 1 min reipasta + palautus",
-    en: "6 × 1 min hard + rest",
-    sv: "6 × 1 min hårt + vila"
-  }
+    fi: "Verryttely 2 + hyppääminen",
+    en: "Warm-up 2 + jumping",
+    sv: "Uppvärmning 2 + hoppning"
+  },
+  parts: [{
+    title: "Verryttely / oheisharjoitus 2",
+    mins: 30,
+    items: ["Peli tai vauhdikas leikki", "Venyttelyhetki koko keholle", "Lajitekniikka: yksinkertaisia perusliikkeitä eri tavoin"]
+  }, {
+    title: "Hyppääminen",
+    mins: 90,
+    video: true,
+    items: ["Noin 10–25 hyppyä tai muuta lajinomaista tekemistä, esim. pikkusuksilla", "Mäkikoko pääasiassa alle HS 70"]
+  }, {
+    title: "Loppuyhteenveto",
+    mins: 0,
+    items: ["Mikä onnistui tänään? Mitä harjoitellaan seuraavaksi?"]
+  }],
+  tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria ja lentäminen \"irti alustasta\"", "Telemark-alastulo"]
 }, {
   dow: 5,
-  icon: "footprints",
-  mins: 50,
+  kind: "laji",
+  icon: "mountain-snow",
+  mins: 120,
   name: {
-    fi: "Pitkä lenkki",
-    en: "Long walk/run",
-    sv: "Lång tur"
+    fi: "Lajiharjoitus",
+    en: "Ski jumping practice",
+    sv: "Grenträning"
   },
   focus: {
-    fi: "Rauhallinen pidempi lenkki",
-    en: "Easy longer session",
-    sv: "Lugn längre tur"
-  }
+    fi: "Verryttely 3 + hyppääminen",
+    en: "Warm-up 3 + jumping",
+    sv: "Uppvärmning 3 + hoppning"
+  },
+  parts: [{
+    title: "Verryttely / oheisharjoitus 3",
+    mins: 30,
+    items: ["Peli tai vauhdikas leikki", "Venyttelyhetki koko keholle", "Lajitekniikka: yksinkertaisia perusliikkeitä eri tavoin"]
+  }, {
+    title: "Hyppääminen",
+    mins: 90,
+    video: true,
+    items: ["Noin 10–25 hyppyä tai muuta lajinomaista tekemistä", "Leiripäivinä hyppyjä voi olla enemmän"]
+  }],
+  tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria", "Telemark-alastulo"]
 }, {
   dow: 6,
+  kind: "lepo",
   icon: null,
   mins: 0,
   name: {
-    fi: "Lepopäivä",
-    en: "Rest day",
-    sv: "Vilodag"
+    fi: "Vapaapäivä",
+    en: "Free day",
+    sv: "Ledig dag"
   },
   focus: {
-    fi: "Palaudu — kevyt liikkuvuus sallittu",
-    en: "Recover — light mobility ok",
-    sv: "Återhämta — lätt rörlighet ok"
-  }
+    fi: "Muut harrastukset ja vapaa leikkivä liikunta",
+    en: "Other hobbies and free play",
+    sv: "Andra hobbyer och fri lek"
+  },
+  parts: []
 }];
 
 /* Seuraava suunniteltu sessio etusivun agendaa varten.
@@ -12792,12 +13130,13 @@ const DEFAULT_PLAN = [
       { title: "Lajiliikkuvuus", mins: 15, items: ["Lajiliikkuvuusosio"] },
     ],
     note: "Talvikaudella tilalla pikkusuksitreeni: suksitaitoja, pelejä, leikkejä ja ponnistuksia suksilla + hiihtämistä." },
-  { dow: 3, kind: "omatoimi", icon: "bike", mins: 45,
-    name: { fi: "Omatoiminen hikitreeni", en: "Own cardio", sv: "Egen kondition" },
-    focus: { fi: "Hikipeli tai aerobinen lenkki", en: "Sweaty game or aerobic run", sv: "Svettig lek eller lugn runda" },
+  { dow: 3, kind: "omatoimi", icon: "person-standing", mins: 30,
+    name: { fi: "Venyttelypäivä", en: "Stretching day", sv: "Stretchdag" },
+    focus: { fi: "Rauhallinen venyttely ja liikkuvuus", en: "Calm stretching and mobility", sv: "Lugn stretching och rörlighet" },
     parts: [
-      { title: "Hikipeli tai lenkki", mins: 30, items: ["Juosten, rullasuksilla, pyörällä, rullaluistimilla tai hiihtäen", "Kaverin kanssa on hauskempaa!"] },
-      { title: "Keskivartalo & liikkuvuus", mins: 15, items: ["Keskivartalon harjoitteita", "Lajiliikkuvuusosio"] },
+      { title: "Lämmittely", mins: 5, items: ["Kevyttä hölkkää tai hyppelyä paikallaan", "Käsien ja jalkojen pyörittelyt"] },
+      { title: "Venyttely koko keholle", mins: 20, items: ["Pohkeet ja takareidet", "Etureidet ja lonkankoukistajat", "Selkä ja kyljet", "Hartiat ja niska", "Pidä jokaista venytystä rauhassa noin 20–30 sekuntia"] },
+      { title: "Lajiliikkuvuus", mins: 5, items: ["Lajiliikkuvuusosio", "Syvä kyykky ja laskuasennon pito"] },
     ] },
   { dow: 4, kind: "laji", icon: "mountain-snow", mins: 120,
     name: { fi: "Lajiharjoitus", en: "Ski jumping practice", sv: "Grenträning" },
@@ -12808,18 +13147,20 @@ const DEFAULT_PLAN = [
       { title: "Loppuyhteenveto", mins: 0, items: ["Mikä onnistui tänään? Mitä harjoitellaan seuraavaksi?"] },
     ],
     tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria ja lentäminen \"irti alustasta\"", "Telemark-alastulo"] },
-  { dow: 5, kind: "laji", icon: "mountain-snow", mins: 120,
-    name: { fi: "Lajiharjoitus", en: "Ski jumping practice", sv: "Grenträning" },
-    focus: { fi: "Verryttely 3 + hyppääminen", en: "Warm-up 3 + jumping", sv: "Uppvärmning 3 + hoppning" },
-    parts: [
-      { title: "Verryttely / oheisharjoitus 3", mins: 30, items: ["Peli tai vauhdikas leikki", "Venyttelyhetki koko keholle", "Lajitekniikka: yksinkertaisia perusliikkeitä eri tavoin"] },
-      { title: "Hyppääminen", mins: 90, video: true, items: ["Noin 10–25 hyppyä tai muuta lajinomaista tekemistä", "Leiripäivinä hyppyjä voi olla enemmän"] },
-    ],
-    tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria", "Telemark-alastulo"] },
-  { dow: 6, kind: "lepo", icon: null, mins: 0,
+  { dow: 5, kind: "lepo", icon: null, mins: 0,
     name: { fi: "Vapaapäivä", en: "Free day", sv: "Ledig dag" },
     focus: { fi: "Muut harrastukset ja vapaa leikkivä liikunta", en: "Other hobbies and free play", sv: "Andra hobbyer och fri lek" },
     parts: [] },
+  { dow: 6, kind: "omatoimi", icon: "zap", mins: 25,
+    name: { fi: "Herkistävä harjoitus", en: "Activation session", sv: "Aktiveringspass" },
+    focus: { fi: "Lyhyt ja terävä — keho valmiiksi viikkoon", en: "Short and sharp — ready for the week", sv: "Kort och skarpt — redo för veckan" },
+    parts: [
+      { title: "Verryttely", mins: 8, items: ["Kevyt hölkkä tai vauhdikas leikki", "Dynaamiset liikkuvuusliikkeet"] },
+      { title: "Nopeus", mins: 7, items: ["3–4 lyhyttä vetoa (10–15 m), täysi palautus välissä", "Reaktiolähdöt kaverin merkistä"] },
+      { title: "Ponnistukset", mins: 7, items: ["5–6 ponnistusimitaatiota laskuasennosta", "3–4 tasajalkahyppyä eteen", "Laatu ennen määrää — ei väsytetä!"] },
+      { title: "Loppuverryttely", mins: 3, items: ["Rauhallinen kävely ja kevyt venyttely"] },
+    ],
+    tips: ["Lyhyesti ja terävästi", "Täysi palautus toistojen välissä", "Lopeta kun vielä tuntuu hyvältä"] },
 ];
 
 /* Seuraava suunniteltu sessio etusivun agendaa varten.
