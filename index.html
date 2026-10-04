@@ -435,7 +435,7 @@ button {
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <script>
-/* @ds-bundle: {"format":4,"namespace":"VireDesignSystem_068680","components":[{"name":"Avatar","sourcePath":"components/data-display/Avatar.jsx"},{"name":"Badge","sourcePath":"components/data-display/Badge.jsx"},{"name":"Card","sourcePath":"components/data-display/Card.jsx"},{"name":"ProgressRing","sourcePath":"components/data-display/ProgressRing.jsx"},{"name":"StatTile","sourcePath":"components/data-display/StatTile.jsx"},{"name":"Button","sourcePath":"components/forms/Button.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"IconButton","sourcePath":"components/forms/IconButton.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"SegmentedControl","sourcePath":"components/forms/SegmentedControl.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"}],"sourceHashes":{"app/extras.jsx":"d3614e9592ec","app/history.jsx":"5be3f1e24d89","app/i18n.jsx":"8a728eee63b8","app/liike.jsx":"80c943888e20","app/onboarding.jsx":"6303ee3a7e67","app/profiili.jsx":"39fec291e8ff","app/ravinto.jsx":"9129241007dd","app/settings.jsx":"9054a0f32a44","app/shell.jsx":"3d11057ee819","app/store.jsx":"f9b13f4f82cf","app/today.jsx":"7fd2af5cd01f","components/data-display/Avatar.jsx":"45c638631b6a","components/data-display/Badge.jsx":"ba66048983d4","components/data-display/Card.jsx":"27fbcbd15322","components/data-display/ProgressRing.jsx":"c76ba3c7153b","components/data-display/StatTile.jsx":"8cb73e9b51f6","components/forms/Button.jsx":"7e0fdff0c34b","components/forms/Checkbox.jsx":"a4f5ba11986e","components/forms/IconButton.jsx":"b4baaca12a9f","components/forms/Input.jsx":"8a5d3e58dae1","components/forms/SegmentedControl.jsx":"278f65f2e07f","components/forms/Switch.jsx":"b7b4c19eed04","ui_kits/mobile/LiikeModule.jsx":"02d798be60e0","ui_kits/mobile/NutritionScreen.jsx":"6ba80dcce3dc","ui_kits/mobile/ProfileScreen.jsx":"171df5c70fbe","ui_kits/mobile/RavintoModule.jsx":"0c22d89c2093","ui_kits/mobile/TodayScreen.jsx":"9824e4a1f2e6","ui_kits/mobile/kit-lib.jsx":"9017c1708a8d","ui_kits/web/OverviewView.jsx":"ee2dd27bb407","ui_kits/web/kit-lib.jsx":"84f49f224d52","ui_kits/web/views.jsx":"56363e24a330"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":4,"namespace":"VireDesignSystem_068680","components":[{"name":"Avatar","sourcePath":"components/data-display/Avatar.jsx"},{"name":"Badge","sourcePath":"components/data-display/Badge.jsx"},{"name":"Card","sourcePath":"components/data-display/Card.jsx"},{"name":"ProgressRing","sourcePath":"components/data-display/ProgressRing.jsx"},{"name":"StatTile","sourcePath":"components/data-display/StatTile.jsx"},{"name":"Button","sourcePath":"components/forms/Button.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"IconButton","sourcePath":"components/forms/IconButton.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"SegmentedControl","sourcePath":"components/forms/SegmentedControl.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"}],"sourceHashes":{"app/extras.jsx":"d3614e9592ec","app/history.jsx":"5be3f1e24d89","app/i18n.jsx":"8a728eee63b8","app/liike.jsx":"80c943888e20","app/onboarding.jsx":"6303ee3a7e67","app/profiili.jsx":"39fec291e8ff","app/ravinto.jsx":"9129241007dd","app/settings.jsx":"9054a0f32a44","app/shell.jsx":"3d11057ee819","app/store.jsx":"910e71d5dabc","app/today.jsx":"7fd2af5cd01f","components/data-display/Avatar.jsx":"45c638631b6a","components/data-display/Badge.jsx":"ba66048983d4","components/data-display/Card.jsx":"27fbcbd15322","components/data-display/ProgressRing.jsx":"c76ba3c7153b","components/data-display/StatTile.jsx":"8cb73e9b51f6","components/forms/Button.jsx":"7e0fdff0c34b","components/forms/Checkbox.jsx":"a4f5ba11986e","components/forms/IconButton.jsx":"b4baaca12a9f","components/forms/Input.jsx":"8a5d3e58dae1","components/forms/SegmentedControl.jsx":"278f65f2e07f","components/forms/Switch.jsx":"b7b4c19eed04","ui_kits/mobile/LiikeModule.jsx":"02d798be60e0","ui_kits/mobile/NutritionScreen.jsx":"6ba80dcce3dc","ui_kits/mobile/ProfileScreen.jsx":"171df5c70fbe","ui_kits/mobile/RavintoModule.jsx":"0c22d89c2093","ui_kits/mobile/TodayScreen.jsx":"9824e4a1f2e6","ui_kits/mobile/kit-lib.jsx":"9017c1708a8d","ui_kits/web/OverviewView.jsx":"ee2dd27bb407","ui_kits/web/kit-lib.jsx":"84f49f224d52","ui_kits/web/views.jsx":"56363e24a330"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -7120,26 +7120,30 @@ const DEFAULT_PLAN = [{
 }, {
   dow: 3,
   kind: "omatoimi",
-  icon: "bike",
-  mins: 45,
+  icon: "person-standing",
+  mins: 30,
   name: {
-    fi: "Omatoiminen hikitreeni",
-    en: "Own cardio",
-    sv: "Egen kondition"
+    fi: "Venyttelypäivä",
+    en: "Stretching day",
+    sv: "Stretchdag"
   },
   focus: {
-    fi: "Hikipeli tai aerobinen lenkki",
-    en: "Sweaty game or aerobic run",
-    sv: "Svettig lek eller lugn runda"
+    fi: "Rauhallinen venyttely ja liikkuvuus",
+    en: "Calm stretching and mobility",
+    sv: "Lugn stretching och rörlighet"
   },
   parts: [{
-    title: "Hikipeli tai lenkki",
-    mins: 30,
-    items: ["Juosten, rullasuksilla, pyörällä, rullaluistimilla tai hiihtäen", "Kaverin kanssa on hauskempaa!"]
+    title: "Lämmittely",
+    mins: 5,
+    items: ["Kevyttä hölkkää tai hyppelyä paikallaan", "Käsien ja jalkojen pyörittelyt"]
   }, {
-    title: "Keskivartalo & liikkuvuus",
-    mins: 15,
-    items: ["Keskivartalon harjoitteita", "Lajiliikkuvuusosio"]
+    title: "Venyttely koko keholle",
+    mins: 20,
+    items: ["Pohkeet ja takareidet", "Etureidet ja lonkankoukistajat", "Selkä ja kyljet", "Hartiat ja niska", "Pidä jokaista venytystä rauhassa noin 20–30 sekuntia"]
+  }, {
+    title: "Lajiliikkuvuus",
+    mins: 5,
+    items: ["Lajiliikkuvuusosio", "Syvä kyykky ja laskuasennon pito"]
   }]
 }, {
   dow: 4,
@@ -7173,32 +7177,6 @@ const DEFAULT_PLAN = [{
   tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria ja lentäminen \"irti alustasta\"", "Telemark-alastulo"]
 }, {
   dow: 5,
-  kind: "laji",
-  icon: "mountain-snow",
-  mins: 120,
-  name: {
-    fi: "Lajiharjoitus",
-    en: "Ski jumping practice",
-    sv: "Grenträning"
-  },
-  focus: {
-    fi: "Verryttely 3 + hyppääminen",
-    en: "Warm-up 3 + jumping",
-    sv: "Uppvärmning 3 + hoppning"
-  },
-  parts: [{
-    title: "Verryttely / oheisharjoitus 3",
-    mins: 30,
-    items: ["Peli tai vauhdikas leikki", "Venyttelyhetki koko keholle", "Lajitekniikka: yksinkertaisia perusliikkeitä eri tavoin"]
-  }, {
-    title: "Hyppääminen",
-    mins: 90,
-    video: true,
-    items: ["Noin 10–25 hyppyä tai muuta lajinomaista tekemistä", "Leiripäivinä hyppyjä voi olla enemmän"]
-  }],
-  tips: ["Menevä laskuasento", "Ponnistuksen oikea liikemalli", "Lennon symmetria", "Telemark-alastulo"]
-}, {
-  dow: 6,
   kind: "lepo",
   icon: null,
   mins: 0,
@@ -7213,6 +7191,39 @@ const DEFAULT_PLAN = [{
     sv: "Andra hobbyer och fri lek"
   },
   parts: []
+}, {
+  dow: 6,
+  kind: "omatoimi",
+  icon: "zap",
+  mins: 25,
+  name: {
+    fi: "Herkistävä harjoitus",
+    en: "Activation session",
+    sv: "Aktiveringspass"
+  },
+  focus: {
+    fi: "Lyhyt ja terävä — keho valmiiksi viikkoon",
+    en: "Short and sharp — ready for the week",
+    sv: "Kort och skarpt — redo för veckan"
+  },
+  parts: [{
+    title: "Verryttely",
+    mins: 8,
+    items: ["Kevyt hölkkä tai vauhdikas leikki", "Dynaamiset liikkuvuusliikkeet"]
+  }, {
+    title: "Nopeus",
+    mins: 7,
+    items: ["3–4 lyhyttä vetoa (10–15 m), täysi palautus välissä", "Reaktiolähdöt kaverin merkistä"]
+  }, {
+    title: "Ponnistukset",
+    mins: 7,
+    items: ["5–6 ponnistusimitaatiota laskuasennosta", "3–4 tasajalkahyppyä eteen", "Laatu ennen määrää — ei väsytetä!"]
+  }, {
+    title: "Loppuverryttely",
+    mins: 3,
+    items: ["Rauhallinen kävely ja kevyt venyttely"]
+  }],
+  tips: ["Lyhyesti ja terävästi", "Täysi palautus toistojen välissä", "Lopeta kun vielä tuntuu hyvältä"]
 }];
 
 /* Seuraava suunniteltu sessio etusivun agendaa varten.
@@ -12983,7 +12994,7 @@ Object.assign(window, { STR, makeT, DOW_SHORT, DOW_LONG, MONTHS, MONTHS_SHORT, l
    Kaikki alkaa nollasta. v0.1.1: asetukset, kieli, teema, fiilis, pilvisynkkaus. */
 
 const STORE_KEY = "vire.kkh.v1";
-const APP_VERSION = "0.2.1";
+const APP_VERSION = "0.2.2";
 
 /* ---------- päivä & viikko ---------- */
 function dateKey(d = new Date()) {
@@ -14143,7 +14154,7 @@ function ViikkoOhjelma({ store, refDate, setRefDate, onOpenDay, t, lang, onMenu 
   const program = store.state.programs && Array.isArray(store.state.programs.workouts) ? store.state.programs.workouts : null;
   const planFor = (d) => {
     const dow = (d.getDay() + 6) % 7;
-    const src = program && program.length && program[0] && program[0].kind ? program : window.DEFAULT_PLAN;
+    const src = store.state.programs && store.state.programs.source === "url" && program && program.length && program[0] && program[0].kind ? program : window.DEFAULT_PLAN;
     const e = src.find((x) => x.dow === dow);
     if (!e) return null;
     const nm = typeof e.name === "object" ? (e.name[lang] || e.name.fi) : e.name;
@@ -14252,7 +14263,7 @@ const pd = (k, lang) => (PD_TXT[k][lang] || PD_TXT[k].fi);
 function planForDate(store, d) {
   const dow = (d.getDay() + 6) % 7;
   const prog = store.state.programs && Array.isArray(store.state.programs.workouts) ? store.state.programs.workouts : null;
-  const src = prog && prog.length && prog[0] && prog[0].kind ? prog : window.DEFAULT_PLAN;
+  const src = store.state.programs.source === "url" && prog && prog.length && prog[0] && prog[0].kind ? prog : window.DEFAULT_PLAN;
   return src.find((x) => x.dow === dow) || null;
 }
 
@@ -14876,7 +14887,7 @@ function SettingsView({ store, t, lang, onBack, onMenu }) {
     if (!syncUrl) { setSyncState("none"); return; }
     setSyncState("loading");
     const res = await window.fetchPrograms(syncUrl);
-    if (res.ok) { store.setPrograms(res.programs); setSyncState("ok"); }
+    if (res.ok) { store.setPrograms({ ...res.programs, source: "url" }); setSyncState("ok"); }
     else setSyncState("fail");
   };
   const loadDemo = () => { store.setPrograms({ workouts: window.DEFAULT_PLAN, nutrition: null }); setSyncState("demo"); };
